@@ -1,6 +1,6 @@
 # Pokémon Freedom
 
-Um "Pokémon Diamond modificado" para navegador: mundo aberto inspirado em Sinnoh, multiplayer só com amigos convidados, gráficos novos desenhados por código, os **386 Pokémon das gerações 1 a 3**, personalização de personagem (inclusive camisas de times brasileiros), casas e mansões com móveis, trabalhos para ganhar dinheiro e as mecânicas do Diamond espalhadas pelo mapa. Tudo em português.
+Uma modificação inspirada em "Pokemon Diamond" para navegador: mundo aberto inspirado em Sinnoh, multiplayer só com amigos convidados, gráficos novos desenhados por código, os **386 Pokémon das gerações 1 a 3**, personalização de personagem, casas e mansões com móveis, trabalhos para ganhar dinheiro e as mecânicas do Diamond espalhadas pelo mapa. Tudo em português.
 
 > Projeto de fã, sem fins lucrativos. Pokémon é marca registrada da Nintendo, Game Freak e The Pokémon Company. Os sprites dos Pokémon e dos itens são carregados do repositório público da [PokeAPI](https://github.com/PokeAPI/sprites). As camisas de time usam só as cores e um escudo genérico, sem logotipos oficiais. Não use este projeto comercialmente. O jogo não usa nem inclui nenhuma ROM: tudo foi recriado do zero.
 
@@ -81,7 +81,7 @@ No celular aparecem um direcional, os botões A/B e o botão de correr. Clique e
 
 ## O que tem no jogo
 
-- **Mundo aberto, sem enrolação:** depois de escolher o inicial com o **Professor Carvalho** (Treecko, Cyndaquil ou Squirtle), você vai para onde quiser. Dá para surfar em qualquer água e pedalar desde o começo.
+- **Mundo aberto:** depois de escolher o inicial com o **Professor Carvalho** (Treecko, Cyndaquil ou Squirtle), você vai para onde quiser. Dá para surfar em qualquer água e pedalar desde o começo.
 - **Níveis por área:** o mapa (M) pinta cada área de verde (tranquilo), amarelo (no seu nível) ou vermelho (perigoso), comparando com a sua equipe, e mostra a faixa de nível dos selvagens. O canto da tela também mostra o nível da rota onde você está. Nada impede de ir a qualquer lugar.
 - **Região inspirada em Sinnoh:** 16 cidades, rotas, Monte Coronet, Floresta Eterna, lagos, neve, deserto, ilha vulcânica, Grande Pântano, Ilha de Ferro e a Liga Pokémon.
 - **Condomínio Bela Vista** (a leste de Sandgem, ligado também a Oreburgh): condomínio de luxo com **mansões com piscina** à venda, piscina interna e a loja **Decor Luxo** (jacuzzi, sinuca, fonte, telão, fliperama, lustre...).
