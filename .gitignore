@@ -1,0 +1,22 @@
+# dependências
+node_modules/
+
+# dados dos jogadores (contas, senhas, saves, casas, backups) — ficam só na máquina de quem roda o servidor
+server/data/
+
+# ROMs e arquivos compactados (o jogo não usa nenhuma ROM)
+*.7z
+*.zip
+*.rar
+*.nds
+*.sav
+
+# logs, temporários e configurações locais
+*.log
+*.tmp
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

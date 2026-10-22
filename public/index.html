@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Pokémon Freedom</title>
+  <meta name="description" content="Pokémon Diamond modificado: mundo aberto, multiplayer, Gerações 1 a 3, em português.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='15' fill='%23e3403b' stroke='%23222' stroke-width='2'/><rect x='1' y='15' width='30' height='2' fill='%23222'/><path d='M1 16a15 15 0 0 0 30 0z' fill='%23fff'/><circle cx='16' cy='16' r='5' fill='%23fff' stroke='%23222' stroke-width='2'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <div id="hud" class="hidden">
+    <div id="hud-loc"><div id="hud-zone"></div><div id="hud-time"></div></div>
+    <div id="hud-right">
+      <div id="hud-money"></div>
+      <div id="hud-online" title="Jogadores online"></div>
+    </div>
+    <div id="hud-party"></div>
+    <div id="hud-buttons">
+      <button data-act="menu" title="Menu (X)">☰</button>
+      <button data-act="map" title="Mapa (M)">🗺</button>
+      <button data-act="run" title="Ligar/desligar corrida (R)">🏃</button>
+      <button data-act="bike" title="Bicicleta (B)">🚲</button>
+      <button data-act="poketch" title="Pokétch (Q)">⌚</button>
+      <button data-act="chat" title="Chat (Enter)">💬</button>
+      <button data-act="controls" title="Controles (H)">⌨</button>
+    </div>
+    <button id="decorbtn" class="hidden" title="Decorar a casa (E)">🛋️ Decorar casa</button>
+    <div id="chat">
+      <div id="chat-log"></div>
+      <input id="chat-input" maxlength="160" placeholder="Pressione Enter para conversar...">
+    </div>
+    <div id="toasts"></div>
+    <div id="touch">
+      <div id="dpad"><button data-dir="0">▲</button><button data-dir="3">◀</button><button data-dir="1">▶</button><button data-dir="2">▼</button></div>
+      <div id="abtns"><button data-key="a">A</button><button data-key="b">B</button></div>
+      <div id="runbtn"><button data-key="runToggle">🏃</button></div>
+    </div>
+  </div>
+  <div id="ui"></div>
+  <div id="fade"></div>
+  <div id="loading">
+    <div class="logo"><span class="pk">Pokémon</span><span class="on">Freedom</span><span class="sub">Sinnoh • Mundo Aberto</span></div>
+    <div class="bar"><div id="loading-bar"></div></div>
+    <div id="loading-text">Carregando...</div>
+  </div>
+  <script type="module" src="js/client/main.js"></script>
+</body>
+</html>
